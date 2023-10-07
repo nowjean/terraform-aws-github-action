@@ -1,10 +1,7 @@
-name: Terraform DEV
+name: Terraform DEV Destroy
 
 on:
-  push:
-    branches:
-      - main
-  pull_request:
+  workflow_dispatch:
 
 env:
   MY_PREFIX: DEV
